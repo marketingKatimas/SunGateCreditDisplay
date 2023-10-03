@@ -1,0 +1,244 @@
+/* Start For Loan Calculator */
+
+.faq-section .wrapper .img-box h4{
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.img-box .top {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.img-box .calc_output span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.calc_output input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.calc_output input::placeholder {
+    font-size: 18px; 
+}
+
+.img-box .top .group {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 992px) {
+    .calculator {
+        padding-bottom: 50px;
+    }
+
+    .loan-calculator {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .loan-calculator .top {
+        padding: 39px 60px 52px 58px;
+    }
+
+    /* Added styles for smaller devices */
+    .centered-heading {
+        margin-top: 40px;
+    }
+
+    .loan-calculator .top h2 {
+        text-align: center;
+    }
+}
+
+form {
+    margin-top: 30px;
+}
+
+form:not(:first-child) {
+    margin-top: 40px;
+}
+
+.title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.faq-section .faq-content .calc_output input {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    padding-right: 50px;
+}
+
+.calc__placeholders {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-box .calc__input-range1 {
+    border-radius: 8px;
+    height: 7px;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+.calc__input-range1::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #00BECC;
+}
+
+.calc__input-range2 {
+    border-radius: 8px;
+    height: 7px;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+.calc__input-range2::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #00BECC;
+}
+
+
+
+/* .img-box button{
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    background-color: #ed1c24;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+} */
+
+.img-box .calculate-btn{
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 10px;
+    color: grey;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: all 0.5s ease 0s;
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    display: none;
+}
+
+
+
+/* Result Display */
+
+.img-box .result {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.img-box .result div{
+    margin-bottom: 20px;
+}
+
+.faq-section .result .title {
+    color: #1E3259;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.result .title .loan-tenure-value{
+    color: #0468BF;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+  }
+
+.value {
+    color: #1E3259;
+    font-size:40px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+
+.total-interest {
+    display: none;
+}
+
+
+.value-container {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.faq-content .btn-container button{
+    background: #0468BF;
+    color: #fff !important;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding: 0 27px !important;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.faq-content .btn-container button:hover {
+    border-style: solid;
+    border-color:#1E3259;
+    background: #fff;
+    color: #1E3259 !important;
+  }
+
+
+/* End For Loan Calculator */
